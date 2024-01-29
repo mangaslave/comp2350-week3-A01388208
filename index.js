@@ -2,7 +2,7 @@ const mysql = require('mysql2/promise');
 const http = require('http');
 
 const port = process.env.PORT || 3000;
-const is_qoddi = process.env.IS_QODDI || false;
+const is_qoddi = process.env.is_Render || false;
 
 const dbConfig = {
 	host: "sql.freedb.tech",
